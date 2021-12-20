@@ -5,15 +5,25 @@ header h1{
     background-color: yellow;
 }
 
+
+
 header a{
     text-decoration: none;
     border: 1px solid red;
     border-radius: 15px;
 padding: 5px;
+
 }
 
 nav{
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}   
+
+header a:hover{
+    color: orange;
 }
 
 main img{
@@ -38,7 +48,12 @@ h1{
 
 table{
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid navy;
+}
+
+tr:first-child{
+    background-color: #08E8DE;
+    border: 3px solid navy;
 }
 
 td{
@@ -57,8 +72,9 @@ td.d{
     background-color: red;
 }
 
-td.e{
+td:first-child{
     background-color: #08E8DE;
+    border: 3px solid navy;
 }
 
 footer{
@@ -67,5 +83,27 @@ footer{
 }
 
 footer a{
-    color: blue
+    color: blue;
 }
+
+footer a:visited{
+color: grey;
+}
+
+.Classical2{
+    display: flex;
+    justify-content: center;
+}
+
+.Penny2{
+    display: flex;
+    justify-content: center;
+}
+
+.Long2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
